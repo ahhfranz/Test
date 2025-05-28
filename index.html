@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="icon" href="icons/favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 
@@ -48,13 +51,84 @@
 
     <main>
 
+        <div class="banner">
+
+            <div class="container">
+
+                <div class="slider-container has-scrollbar">
+
+                    <div class="slider-item">
+
+                        <img src="images/banner-1.jpg" alt="women's latest fashion sale" class="banner-img">
+
+                        <div class="banner-content">
+
+                            <p class="banner-subtitle">NOVEDADES</p>
+
+                            <h2 class="banner-title">PROMOCIONES EXCLUSIVAS</h2>
+
+                            <p class="banner-text">
+                                a partir de &dollar; <b>59.000</b>.00 ARS
+                            </p>
+
+                            <a href="#" class="banner-btn">Más información</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="slider-item">
+
+                        <img src="images/banner-2.jpg" alt="modern sunglasses" class="banner-img">
+
+                        <div class="banner-content">
+
+                            <p class="banner-subtitle">POLÍTICAS DE DEVOLUCIÓN</p>
+
+                            <h2 class="banner-title">GARANTÍA EN TODOS NUESTROS PRODUCTOS</h2>
+
+                            <p class="banner-text">
+                                Te ofrecemos 30 días hábiles para reemplazar tus compras.
+                            </p>
+
+                            <a href="../pages/politica.html" class="banner-btn">Más información</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="slider-item">
+
+                        <img src="images/banner-3.jpg" alt="new fashion summer sale" class="banner-img">
+
+                        <div class="banner-content">
+
+                            <p class="banner-subtitle">CONTÁCTANOS</p>
+
+                            <h2 class="banner-title">LUNES A SÁBADOS 9 A 22 hs</h2>
+
+                            <p class="banner-text">
+                                Atención mediante correo electrónico y WhatsApp.
+                            </p>
+
+                            <a href="../pages/contacto.html" class="banner-btn">Contactar</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
 
         <div class="anuncios">
             <div class="anuncio">
                 <i class="bi bi-truck"></i>
                 <div class="anuncio-texto">
-                    <strong>ENVIOS GRATIS</strong>
-                    Superando los $59999
+                    <h3 class="anuncio-titulo"><strong>ENVÍOS GRATIS</strong></h3>
+                    Superando los $59.999
                 </div>
             </div>
 
@@ -63,7 +137,7 @@
             <div class="anuncio">
                 <i class="bi bi-credit-card-2-front"></i>
                 <div class="anuncio-texto">
-                    <strong>PAGÁ COMO QUIERAS</strong>
+                    <h3 class="anuncio-titulo"><strong>PAGÁ COMO QUIERAS</strong></h3>
                     Tarjetas de crédito o débito
                 </div>
             </div>
@@ -71,57 +145,57 @@
             <div class="divisor"></div>
 
             <div class="anuncio">
-                <i class="bi bi-lock"></i>
+                <i class="bi bi-shield-check"></i>
                 <div class="anuncio-texto">
-                    <strong>COMPRÁ CON SEGURIDAD</strong>
+                    <h3 class="anuncio-titulo"><strong>COMPRÁ CON SEGURIDAD</strong></h3>
                     Tus datos siempre protegidos
                 </div>
             </div>
-
-
     </main>
 
-    <div class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="row">
 
                 <div class="footer-col-1">
-                    <h3>Descarga nuestra App</h3>
-                    <p>Descarga la app para dispositivos móbiles Android y iOS.</p>
-                </div>
-                <div class="app-logo">
-                    <img src="images/play-store.png">
-                    <img src="images/app-store.png">
+                    <h3>Descarga nuestra app</h3>
+                    <p>Disponible para dispositivos Android y iOS.</p>
+                    <div class="app-logos">
+                        <a href="#"><img src="images/play-store.png" alt="Google Play"></a>
+                        <a href="#"><img src="images/app-store.png" alt="App Store"></a>
+                    </div>
                 </div>
 
                 <div class="footer-col-2">
-                    <img src="images/havenlogo2.png">
-                    <p>Tu estilo, nuestra alma.</p>
+                    <img src="images/havenlogo2.png" alt="Haven Logo">
+                    <p>Moda con propósito, prendas con alma.</p>
                 </div>
 
                 <div class="footer-col-3">
                     <h3>Navegación</h3>
                     <ul>
-                        <li><a href="index.html">Inicio</a></li>
                         <li><a href="/pages/productos.html">Productos</a></li>
                         <li><a href="/pages/politica.html">Políticas</a></li>
-                        <li><a href="/pages/sobrenosotros.html">Nosotros</a></li>
+                        <li><a href="/pages/sobrenosotros.html">Sobre nosotros</a></li>
                         <li><a href="/pages/contacto.html">Contacto</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-col-4">
-                    <h3>Medios de envío</h3>
-                    <img src="/icons/correoarg.png" alt="Correo Argentino">
-                    <img src="/icons/oca.png" alt="OCA">
-                </div>
-            </div>
-            <hr>
-            <p class="copyright">Haven Shop - 67590 - © 2025. Todos los derechos reservados.</p>
-        </div>
-    </div>
+                    <h3>Formas de envío</h3>
+                    <div class="shipping-methods">
+                        <img src="icons/correoarg.png" alt="Correo Argentino">
+                        <img src="icons/oca.png" alt="OCA">
+                    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+                </div>
+                <hr>
+                <p class="copyright">Haven Shop - 67590 - © 2025. Todos los derechos reservados.</p>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
