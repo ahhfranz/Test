@@ -32,13 +32,13 @@ Test/
 │   ├── style.css
 │   ├── style.css
 │   ├── style.css
-│   ├── style.css
-│   └── icons/
-│       ├── andreani.png
-│       ├── oca.png
-│       ├── correoarg.png
-│       ├── favicon.png
-│       └── mail.png
+│   └── style.css
+├── icons/
+│   ├── andreani.png
+│   ├── oca.png
+│   ├── correoarg.png
+│   ├── favicon.png
+│   └── mail.png
 ├── .gitignore
 └── README.md
 ```
