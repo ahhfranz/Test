@@ -17,33 +17,28 @@ Sitio web responsive dedicado a un e-Commerce de ropa/joyería, presentado como 
 
 ## 📁 Estructura del proyecto
 
+```
 Test/
-│
 ├── index.html
-│
 ├── pages/
-├── productos.html
-├── politica.html
-├── sobrehaven.html
-│
+│   ├── productos.html
+│   ├── politica.html
+│   └── sobrehaven.html
 ├── css/
-│ └── style.css
-│
+│   └── style.css
 ├── js/
-│ └── script.js
-│
+│   └── script.js
 ├── images/
-│ └── style.css
-│ └── style.css
-│ └── style.css
-│ └── style.css
-│
-├── icons/
-│ └── andreani.png
-│ └── oca.png
-│ └── correoarg.png
-│ └── favicon.png
-│ └── mail.png
-│
+│   ├── style.css
+│   ├── style.css
+│   ├── style.css
+│   ├── style.css
+│   └── icons/
+│       ├── andreani.png
+│       ├── oca.png
+│       ├── correoarg.png
+│       ├── favicon.png
+│       └── mail.png
 ├── .gitignore
 └── README.md
+```
